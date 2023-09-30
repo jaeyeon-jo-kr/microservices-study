@@ -1,0 +1,178 @@
+2023-09-30 22:10:58.527455+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]desc shopping_cart"; expected "DELETE, DROP"; SQL statement:
+desc shopping_cart [42001-224]
+2023-09-30 22:11:15.413894+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "show [*]shopping_cart"; SQL statement:
+show shopping_cart [42000-224]
+2023-09-30 22:16:04.628135+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table cart[*]-item (\000a     id int auto_increment primary key,\000a     quantity int,\000a     color varchar(32),\000a     price int,\000a     product_id int)"; SQL statement:
+create table cart-item (
+     id int auto_increment primary key,
+     quantity int,
+     color varchar(32),
+     price int,
+     product_id int) [42000-224]
+2023-09-30 22:23:24.670723+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order\000a     id int auto_increment primary key,\000a    user_name varchar(30),\000a    total_price bigint,\000a    first_name varchar(10),\000a    last_name varchar(20),\000a    email_address varchar(40),\000a    address_line varchar(50),\000a    country varchar(50),\000a    state varchar(20),\000a    zipcode varchar(10),\000a    card_name varchar(30),\000a    card_number varchar(40),\000a    expiration varchar(10)"; expected "identifier"; SQL statement:
+create table order
+     id int auto_increment primary key,
+    user_name varchar(30),
+    total_price bigint,
+    first_name varchar(10),
+    last_name varchar(20),
+    email_address varchar(40),
+    address_line varchar(50),
+    country varchar(50),
+    state varchar(20),
+    zipcode varchar(10),
+    card_name varchar(30),
+    card_number varchar(40),
+    expiration varchar(10) [42001-224]
+2023-09-30 22:23:58.596443+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (\000a     id int auto_increment primary key,\000a    user_name varchar(30),\000a    total_price bigint,\000a    first_name varchar(10),\000a    last_name varchar(20),\000a    email_address varchar(40),\000a    address_line varchar(50),\000a    country varchar(50),\000a    state varchar(20),\000a    zipcode varchar(10),\000a    card_name varchar(30),\000a    card_number varchar(40),\000a    expiration varchar(10))"; expected "identifier"; SQL statement:
+create table order (
+     id int auto_increment primary key,
+    user_name varchar(30),
+    total_price bigint,
+    first_name varchar(10),
+    last_name varchar(20),
+    email_address varchar(40),
+    address_line varchar(50),
+    country varchar(50),
+    state varchar(20),
+    zipcode varchar(10),
+    card_name varchar(30),
+    card_number varchar(40),
+    expiration varchar(10)) [42001-224]
+2023-09-30 22:24:11.196266+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTACT" already exists; SQL statement:
+create table contact (
+     id int auto_increment primary key,
+     name varchar(50),
+     phone varchar(20),
+     email varchar(60),
+     message varchar(256)
+   ) [42101-224]
+2023-09-30 22:24:24.110842+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTACT" already exists; SQL statement:
+create table contact (
+     id int auto_increment primary key,
+     name varchar(50),
+     phone varchar(20),
+     email varchar(60),
+     message varchar(256)) [42101-224]
+2023-09-30 22:24:32.846045+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (\000a     id int auto_increment primary key,\000a    user_name varchar(30),\000a    total_price bigint,\000a    first_name varchar(10),\000a    last_name varchar(20),\000a    email_address varchar(40),\000a    address_line varchar(50),\000a    country varchar(50),\000a    state varchar(20),\000a    zipcode varchar(10),\000a    card_name varchar(30),\000a    card_number varchar(40),\000a    expiration varchar(10))"; expected "identifier"; SQL statement:
+create table order (
+     id int auto_increment primary key,
+    user_name varchar(30),
+    total_price bigint,
+    first_name varchar(10),
+    last_name varchar(20),
+    email_address varchar(40),
+    address_line varchar(50),
+    country varchar(50),
+    state varchar(20),
+    zipcode varchar(10),
+    card_name varchar(30),
+    card_number varchar(40),
+    expiration varchar(10)) [42001-224]
+2023-09-30 22:25:20.842177+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (\000a     id int auto_increment primary key,\000a    user_name varchar(30),\000a    total_price int,\000a    first_name varchar(10),\000a    last_name varchar(20),\000a    email_address varchar(40),\000a    address_line varchar(50),\000a    country varchar(50),\000a    state varchar(20),\000a    zipcode varchar(10),\000a    card_name varchar(30),\000a    card_number varchar(40),\000a    expiration varchar(10))"; expected "identifier"; SQL statement:
+create table order (
+     id int auto_increment primary key,
+    user_name varchar(30),
+    total_price int,
+    first_name varchar(10),
+    last_name varchar(20),
+    email_address varchar(40),
+    address_line varchar(50),
+    country varchar(50),
+    state varchar(20),
+    zipcode varchar(10),
+    card_name varchar(30),
+    card_number varchar(40),
+    expiration varchar(10)) [42001-224]
+2023-09-30 22:26:06.115540+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (\000a     id int auto_increment primary key,\000a     user_name varchar(30),\000a     total_price bigint,\000a     first_name varchar(10),\000a     last_name varchar(20),\000a     email_address varchar(40),\000a     address_line varchar(50),\000a     country varchar(50),\000a     state varchar(20),\000a     zipcode varchar(10),\000a     card_name varchar(30),\000a     card_number varchar(40),\000a     expiration varchar(10))"; expected "identifier"; SQL statement:
+create table order (
+     id int auto_increment primary key,
+     user_name varchar(30),
+     total_price bigint,
+     first_name varchar(10),
+     last_name varchar(20),
+     email_address varchar(40),
+     address_line varchar(50),
+     country varchar(50),
+     state varchar(20),
+     zipcode varchar(10),
+     card_name varchar(30),
+     card_number varchar(40),
+     expiration varchar(10)) [42001-224]
+2023-09-30 22:27:16.509453+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (\000a     id int auto_increment primary key,\000a     user_name varchar(30),\000a     total_price bigint,\000a     first_name varchar(10),\000a     last_name varchar(20),\000a     email_address varchar(40),\000a     address_line varchar(50),\000a     country varchar(50),\000a     state varchar(20),\000a     zipcode varchar(10),\000a     card_name varchar(30),\000a     card_number varchar(40),\000a     expiration varchar(10),\000a     payment_method tinyint)"; expected "identifier"; SQL statement:
+create table order (
+     id int auto_increment primary key,
+     user_name varchar(30),
+     total_price bigint,
+     first_name varchar(10),
+     last_name varchar(20),
+     email_address varchar(40),
+     address_line varchar(50),
+     country varchar(50),
+     state varchar(20),
+     zipcode varchar(10),
+     card_name varchar(30),
+     card_number varchar(40),
+     expiration varchar(10),
+     payment_method tinyint) [42001-224]
+2023-09-30 22:27:52.537406+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (\000a     id int auto_increment primary key,\000a     user_name varchar(30),\000a     total_price bigint,\000a     first_name varchar(10),\000a     last_name varchar(20),\000a     email_address varchar(40),\000a     address_line varchar(50),\000a     country varchar(50),\000a     state varchar(20),\000a     zipcode varchar(10),\000a     card_name varchar(30),\000a     card_number varchar(40),\000a     expiration varchar(10),\000a     payment_method tinyint)"; expected "identifier"; SQL statement:
+create table order (
+     id int auto_increment primary key,
+     user_name varchar(30),
+     total_price bigint,
+     first_name varchar(10),
+     last_name varchar(20),
+     email_address varchar(40),
+     address_line varchar(50),
+     country varchar(50),
+     state varchar(20),
+     zipcode varchar(10),
+     card_name varchar(30),
+     card_number varchar(40),
+     expiration varchar(10),
+     payment_method tinyint) [42001-224]
+2023-10-01 07:05:14.202058+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into `product` \000a     (name, summary, description, price, category_id)\000a     ('product1', 'product1\\'s summary',\000a     'product1[*]\\'s description', 100, 1)"; SQL statement:
+insert into `product` 
+     (name, summary, description, price, category_id)
+     ('product1', 'product1\'s summary',
+     'product1\'s description', 100, 1) [42000-224]
+2023-10-01 07:06:50.887014+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into `product` \000a     (name, summary, description, price, category_id),\000a     ('product1', 'product1\\'s summary',\000a     'product1[*]\\'s description', 100, 1)"; SQL statement:
+insert into `product` 
+     (name, summary, description, price, category_id),
+     ('product1', 'product1\'s summary',
+     'product1\'s description', 100, 1) [42000-224]
+2023-10-01 07:07:49.163634+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into `product` \000a     (name, summary, description, price, category_id),\000a     values\000a     ('product1', 'product1\\'s summary',\000a     'product1[*]\\'s description', 100, 1)"; SQL statement:
+insert into `product` 
+     (name, summary, description, price, category_id),
+     values
+     ('product1', 'product1\'s summary',
+     'product1\'s description', 100, 1) [42000-224]
+2023-10-01 07:08:16.777617+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into `product` \000a     (name, summary, description, price, category_id)\000a     values\000a     ('product1', 'product1\\'s summary',\000a     'product1[*]\\'s description', 100, 1)"; SQL statement:
+insert into `product` 
+     (name, summary, description, price, category_id)
+     values
+     ('product1', 'product1\'s summary',
+     'product1\'s description', 100, 1) [42000-224]
+2023-10-01 07:09:48.153097+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into `product` \000a     (name, summary, description, price, category_id)\000a     values\000a     ('product1', 'product1\\'s summary',\000a     'product1[*]\\'s description', 100, 1);"; SQL statement:
+insert into `product` 
+     (name, summary, description, price, category_id)
+     values
+     ('product1', 'product1\'s summary',
+     'product1\'s description', 100, 1); [42000-224]

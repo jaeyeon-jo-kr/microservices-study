@@ -1,0 +1,1310 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/jaeyeonjo/Projects/microservices-study/monolithic ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Interrupting Jack-in process.
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/jaeyeonjo/Projects/microservices-study/monolithic ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Interrupting Jack-in process.
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/jaeyeonjo/Projects/microservices-study/monolithic ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Interrupting Jack-in process.
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/jaeyeonjo/Projects/microservices-study/monolithic ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Interrupting Jack-in process.
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/jaeyeonjo/Projects/microservices-study/monolithic ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:60143 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+(when-let [requires (resolve 'clojure.main/repl-requires)] (clojure.core/apply clojure.core/require @requires))
+nil
+clj꞉shadow.user꞉>  ; Use `alt+enter` to evaluate
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Please start your ClojureScript app so that Calva can connect to its REPL...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Timed out waiting for Shadow CLJS runtimes, pretending we are connected.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+(try (require '[cljs.repl :refer [apropos dir doc find-doc print-doc pst source]]) (catch :default e (js/console.warn "Failed to require cljs.repl utilities:" (.-message e))))
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+; Jack-in done.
+clj꞉cljs.user꞉> (require '[next.jdbc :as jdbc])
+(require '[next.jdbc :as jdbc])
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+
+(jdbc/connect)
+jdbc/connect
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+jdbc/
+jdbc/
+
+; [line 1, col 6] Invalid symbol: jdbc/.
+clj꞉cljs.user꞉> 
+jdbc
+jdbc
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+nil
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/jaeyeonjo/Projects/microservices-study/monolithic ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:60631 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+(when-let [requires (resolve 'clojure.main/repl-requires)] (clojure.core/apply clojure.core/require @requires))
+nil
+clj꞉shadow.user꞉> 
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Please start your ClojureScript app so that Calva can connect to its REPL...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Timed out waiting for Shadow CLJS runtimes, pretending we are connected.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+(try (require '[cljs.repl :refer [apropos dir doc find-doc print-doc pst source]]) (catch :default e (js/console.warn "Failed to require cljs.repl utilities:" (.-message e))))
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+cljs꞉cljs.user꞉> 
+clj꞉shadow.user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/jaeyeonjo/Projects/microservices-study/monolithic ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:61786 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+(when-let [requires (resolve 'clojure.main/repl-requires)] (clojure.core/apply clojure.core/require @requires))
+nil
+clj꞉shadow.user꞉> 
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Failed starting cljs repl for build: :app. Is the build running and connected?
+   See the Output channel "Calva Connection Log" for any hints on what went wrong.
+; Jack-in done.
+clj꞉shadow.user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/jaeyeonjo/Projects/microservices-study/monolithic ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:62020 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+(when-let [requires (resolve 'clojure.main/repl-requires)] (clojure.core/apply clojure.core/require @requires))
+nil
+clj꞉shadow.user꞉> 
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Please start your ClojureScript app so that Calva can connect to its REPL...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+(try (require '[cljs.repl :refer [apropos dir doc find-doc print-doc pst source]]) (catch :default e (js/console.warn "Failed to require cljs.repl utilities:" (.-message e))))
+nil
+cljs꞉cljs.user꞉> 
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+clj꞉shadow.user꞉> 
+(ns core)
+(ns core)
+nil
+clj꞉core꞉> (require '[next.jdbc :as jdbc])
+(require '[next.jdbc :as jdbc])
+Loading initial Timbre config from: :default
+nil
+clj꞉core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/jaeyeonjo/Projects/microservices-study/monolithic ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:62638 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+(when-let [requires (resolve 'clojure.main/repl-requires)] (clojure.core/apply clojure.core/require @requires))
+nil
+clj꞉shadow.user꞉> 
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Please start your ClojureScript app so that Calva can connect to its REPL...
+; Connected session: cljs, repl: :node-repl
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+(try (require '[cljs.repl :refer [apropos dir doc find-doc print-doc pst source]]) (catch :default e (js/console.warn "Failed to require cljs.repl utilities:" (.-message e))))
+nil
+cljs꞉cljs.user꞉> 
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+(ns migration)
+nil
+clj꞉migration꞉> 
+(ns migration
+  (:require [next.jdbc :as jdbc]))
+Loading initial Timbre config from: :default
+nil
+clj꞉migration꞉> 
+(def ds (jdbc/get-datasource db))
+; Syntax error compiling at (src/clj/migration.clj:6:9).
+; Unable to resolve symbol: db in this context
+clj꞉migration꞉> 
+(jdbc/get-datasource db)
+; Syntax error compiling at (src/clj/migration.clj:6:9).
+; Unable to resolve symbol: db in this context
+clj꞉migration꞉> 
+(def db {:dbtype "h2" :dbname "msa"})
+#'migration/db
+clj꞉migration꞉> 
+(def ds (jdbc/get-datasource db))
+#'migration/ds
+clj꞉migration꞉> 
+(require '[])
+; Execution error (IllegalArgumentException) at migration/eval45785 (REPL:9).
+; No value supplied for key: true
+clj꞉migration꞉> 
+ds
+#object[next.jdbc.connection$url_PLUS_etc$reify__44811 0x5ffe7fee "jdbc:h2:./msa"]
+clj꞉migration꞉> 
+(def db {:dbtype "h2" :dbname "shopping_mall"})
+#'migration/db
+clj꞉migration꞉> 
+(def ds (jdbc/get-datasource db))
+#'migration/ds
+clj꞉migration꞉> 
+(def db {:dbtype "h2" :dbname "shopping_mall"})
+#'migration/db
+clj꞉migration꞉> 
+(def ds (jdbc/get-datasource db))
+#'migration/ds
+clj꞉migration꞉> 
+ds
+#object[next.jdbc.connection$url_PLUS_etc$reify__44811 0x4c82c05e "jdbc:h2:./shopping_mall"]
+clj꞉migration꞉> 
+(jdbc/execute-one!
+   ds
+   ["create table shopping_cart (
+     id int auto_increment primary key,
+     user_name varchar(32),
+     item_id int)"])
+#:next.jdbc{:update-count 0}
+clj꞉migration꞉> 
+(jdbc/execute-one! ds ["desc shopping_cart"])
+; Execution error (JdbcSQLSyntaxErrorException) at org.h2.message.DbException/getJdbcSQLException (DbException.java:514).
+; Syntax error in SQL statement "[*]desc shopping_cart"; expected "DELETE, DROP"; SQL statement:
+; desc shopping_cart [42001-224]
+clj꞉migration꞉> 
+(jdbc/execute-one! ds ["show shopping_cart"])
+; Execution error (JdbcSQLSyntaxErrorException) at org.h2.message.DbException/getJdbcSQLException (DbException.java:514).
+; Syntax error in SQL statement "show [*]shopping_cart"; SQL statement:
+; show shopping_cart [42000-224]
+clj꞉migration꞉> 
+(jdbc/execute-one! ds ["show"])
+{}
+clj꞉migration꞉> 
+(jdbc/execute-one! ds ["show tables"])
+#:TABLES{:TABLE_NAME "SHOPPING_CART", :TABLE_SCHEMA "PUBLIC"}
+clj꞉migration꞉> 
+(jdbc/execute-one! ds ["drop table shopping_cart"])
+#:next.jdbc{:update-count 0}
+clj꞉migration꞉> 
+(jdbc/execute-one! ds ["show tables"])
+nil
+clj꞉migration꞉> 
+(jdbc/execute-one!
+   ds
+   ["create table cart-item (
+     id int auto_increment primary key,
+     quantity int,
+     color varchar(32),
+     price int,
+     product_id int)"])
+; Execution error (JdbcSQLSyntaxErrorException) at org.h2.message.DbException/getJdbcSQLException (DbException.java:514).
+; Syntax error in SQL statement "create table cart[*]-item (\000a     id int auto_increment primary key,\000a     quantity int,\000a     color varchar(32),\000a     price int,\000a     product_id int)"; SQL statement:
+; create table cart-item (
+;      id int auto_increment primary key,
+;      quantity int,
+;      color varchar(32),
+;      price int,
+;      product_id int) [42000-224]
+clj꞉migration꞉> 
+(jdbc/execute-one!
+   ds
+   ["create table cart_item (
+     id int auto_increment primary key,
+     quantity int,
+     color varchar(32),
+     price int,
+     product_id int)"])
+#:next.jdbc{:update-count 0}
+clj꞉migration꞉> 
+(jdbc/execute-one!
+   ds
+   ["create table category (
+     id int auto_increment primary key,
+     name varchar(50),
+     description varchar(900),
+     image_name varchar(256))"])
+#:next.jdbc{:update-count 0}
+clj꞉migration꞉> 
+(jdbc/execute-one!
+   ds 
+   ["create table contact (
+     id int auto_increment primary key,
+     name varchar(50),
+     phone varchar(20),
+     email varchar(60),
+     message varchar(256)
+   )"])
+#:next.jdbc{:update-count 0}
+clj꞉migration꞉> 
+(jdbc/execute-one!
+   ds
+   ["create table order
+     id int auto_increment primary key,
+    user_name varchar(30),
+    total_price bigint,
+    first_name varchar(10),
+    last_name varchar(20),
+    email_address varchar(40),
+    address_line varchar(50),
+    country varchar(50),
+    state varchar(20),
+    zipcode varchar(10),
+    card_name varchar(30),
+    card_number varchar(40),
+    expiration varchar(10)"])
+; Execution error (JdbcSQLSyntaxErrorException) at org.h2.message.DbException/getJdbcSQLException (DbException.java:514).
+; Syntax error in SQL statement "create table [*]order\000a     id int auto_increment primary key,\000a    user_name varchar(30),\000a    total_price bigint,\000a    first_name varchar(10),\000a    last_name varchar(20),\000a    email_address varchar(40),\000a    address_line varchar(50),\000a    country varchar(50),\000a    state varchar(20),\000a    zipcode varchar(10),\000a    card_name varchar(30),\000a    card_number varchar(40),\000a    expiration varchar(10)"; expected "identifier"; SQL statement:
+; create table order
+;      id int auto_increment primary key,
+;     user_name varchar(30),
+;     total_price bigint,
+;     first_name varchar(10),
+;     last_name varchar(20),
+;     email_address varchar(40),
+;     address_line varchar(50),
+;     country varchar(50),
+;     state varchar(20),
+;     zipcode varchar(10),
+;     card_name varchar(30),
+;     card_number varchar(40),
+;     expiration varchar(10) [42001-224]
+clj꞉migration꞉> 
+(jdbc/execute-one!
+   ds
+   ["create table order (
+     id int auto_increment primary key,
+    user_name varchar(30),
+    total_price bigint,
+    first_name varchar(10),
+    last_name varchar(20),
+    email_address varchar(40),
+    address_line varchar(50),
+    country varchar(50),
+    state varchar(20),
+    zipcode varchar(10),
+    card_name varchar(30),
+    card_number varchar(40),
+    expiration varchar(10))"])
+; Execution error (JdbcSQLSyntaxErrorException) at org.h2.message.DbException/getJdbcSQLException (DbException.java:514).
+; Syntax error in SQL statement "create table [*]order (\000a     id int auto_increment primary key,\000a    user_name varchar(30),\000a    total_price bigint,\000a    first_name varchar(10),\000a    last_name varchar(20),\000a    email_address varchar(40),\000a    address_line varchar(50),\000a    country varchar(50),\000a    state varchar(20),\000a    zipcode varchar(10),\000a    card_name varchar(30),\000a    card_number varchar(40),\000a    expiration varchar(10))"; expected "identifier"; SQL statement:
+; create table order (
+;      id int auto_increment primary key,
+;     user_name varchar(30),
+;     total_price bigint,
+;     first_name varchar(10),
+;     last_name varchar(20),
+;     email_address varchar(40),
+;     address_line varchar(50),
+;     country varchar(50),
+;     state varchar(20),
+;     zipcode varchar(10),
+;     card_name varchar(30),
+;     card_number varchar(40),
+;     expiration varchar(10)) [42001-2
+; 24]
+clj꞉migration꞉> 
+(jdbc/execute-one!
+   ds 
+   ["create table contact (
+     id int auto_increment primary key,
+     name varchar(50),
+     phone varchar(20),
+     email varchar(60),
+     message varchar(256)
+   )"])
+; Execution error (JdbcSQLSyntaxErrorException) at org.h2.message.DbException/getJdbcSQLException (DbException.java:514).
+; Table "CONTACT" already exists; SQL statement:
+; create table contact (
+;      id int auto_increment primary key,
+;      name varchar(50),
+;      phone varchar(20),
+;      email varchar(60),
+;      message varchar(256)
+;    ) [42101-224]
+clj꞉migration꞉> 
+(jdbc/execute-one!
+   ds 
+   ["create table contact (
+     id int auto_increment primary key,
+     name varchar(50),
+     phone varchar(20),
+     email varchar(60),
+     message varchar(256))"])
+; Execution error (JdbcSQLSyntaxErrorException) at org.h2.message.DbException/getJdbcSQLException (DbException.java:514).
+; Table "CONTACT" already exists; SQL statement:
+; create table contact (
+;      id int auto_increment primary key,
+;      name varchar(50),
+;      phone varchar(20),
+;      email varchar(60),
+;      message varchar(256)) [42101-224]
+clj꞉migration꞉> 
+(jdbc/execute-one!
+   ds
+   ["create table order (
+     id int auto_increment primary key,
+    user_name varchar(30),
+    total_price bigint,
+    first_name varchar(10),
+    last_name varchar(20),
+    email_address varchar(40),
+    address_line varchar(50),
+    country varchar(50),
+    state varchar(20),
+    zipcode varchar(10),
+    card_name varchar(30),
+    card_number varchar(40),
+    expiration varchar(10))"])
+; Execution error (JdbcSQLSyntaxErrorException) at org.h2.message.DbException/getJdbcSQLException (DbException.java:514).
+; Syntax error in SQL statement "create table [*]order (\000a     id int auto_increment primary key,\000a    user_name varchar(30),\000a    total_price bigint,\000a    first_name varchar(10),\000a    last_name varchar(20),\000a    email_address varchar(40),\000a    address_line varchar(50),\000a    country varchar(50),\000a    state varchar(20),\000a    zipcode varchar(10),\000a    card_name varchar(30),\000a    card_number varchar(40),\000a    expiration varchar(10))"; expected "identifier"; SQL statement:
+; create table order (
+;      id int auto_increment primary key,
+;     user_name varchar(30),
+;     total_price bigint,
+;     first_name varchar(10),
+;     last_name varchar(20),
+;     email_address varchar(40),
+;     address_line varchar(50),
+;     country varchar(50),
+;     state varchar(20),
+;     zipcode varchar(10),
+;     card_name varchar(30),
+;     card_number varchar(40),
+;     expiration varchar(10)) [42001-2
+; 24]
+clj꞉migration꞉> 
+(jdbc/execute-one!
+   ds
+   ["create table order (
+     id int auto_increment primary key,
+    user_name varchar(30),
+    total_price int,
+    first_name varchar(10),
+    last_name varchar(20),
+    email_address varchar(40),
+    address_line varchar(50),
+    country varchar(50),
+    state varchar(20),
+    zipcode varchar(10),
+    card_name varchar(30),
+    card_number varchar(40),
+    expiration varchar(10))"])
+; Execution error (JdbcSQLSyntaxErrorException) at org.h2.message.DbException/getJdbcSQLException (DbException.java:514).
+; Syntax error in SQL statement "create table [*]order (\000a     id int auto_increment primary key,\000a    user_name varchar(30),\000a    total_price int,\000a    first_name varchar(10),\000a    last_name varchar(20),\000a    email_address varchar(40),\000a    address_line varchar(50),\000a    country varchar(50),\000a    state varchar(20),\000a    zipcode varchar(10),\000a    card_name varchar(30),\000a    card_number varchar(40),\000a    expiration varchar(10))"; expected "identifier"; SQL statement:
+; create table order (
+;      id int auto_increment primary key,
+;     user_name varchar(30),
+;     total_price int,
+;     first_name varchar(10),
+;     last_name varchar(20),
+;     email_address varchar(40),
+;     address_line varchar(50),
+;     country varchar(50),
+;     state varchar(20),
+;     zipcode varchar(10),
+;     card_name varchar(30),
+;     card_number varchar(40),
+;     expiration varchar(10)) [42001-224]
+clj꞉migration꞉> 
+(jdbc/execute-one!
+   ds
+   ["create table order (
+     id int auto_increment primary key,
+     user_name varchar(30),
+     total_price bigint,
+     first_name varchar(10),
+     last_name varchar(20),
+     email_address varchar(40),
+     address_line varchar(50),
+     country varchar(50),
+     state varchar(20),
+     zipcode varchar(10),
+     card_name varchar(30),
+     card_number varchar(40),
+     expiration varchar(10))"])
+; Execution error (JdbcSQLSyntaxErrorException) at org.h2.message.DbException/getJdbcSQLException (DbException.java:514).
+; Syntax error in SQL statement "create table [*]order (\000a     id int auto_increment primary key,\000a     user_name varchar(30),\000a     total_price bigint,\000a     first_name varchar(10),\000a     last_name varchar(20),\000a     email_address varchar(40),\000a     address_line varchar(50),\000a     country varchar(50),\000a     state varchar(20),\000a     zipcode varchar(10),\000a     card_name varchar(30),\000a     card_number varchar(40),\000a     expiration varchar(10))"; expected "identifier"; SQL statement:
+; create table order (
+;      id int auto_increment primary key,
+;      user_name varchar(30),
+;      total_price bigint,
+;      first_name varchar(10),
+;      last_name varchar(20),
+;      email_address varchar(40),
+;      address_line varchar(50),
+;      country varchar(50),
+;      state varchar(20),
+;      zipcode varchar(10),
+;      card_name varchar(30),
+;      card_number varchar(40),
+;      expirati
+; on varchar(10)) [42001-224]
+clj꞉migration꞉> 
+(jdbc/execute-one!
+   ds
+   ["create table order (
+     id int auto_increment primary key,
+     user_name varchar(30),
+     total_price bigint,
+     first_name varchar(10),
+     last_name varchar(20),
+     email_address varchar(40),
+     address_line varchar(50),
+     country varchar(50),
+     state varchar(20),
+     zipcode varchar(10),
+     card_name varchar(30),
+     card_number varchar(40),
+     expiration varchar(10),
+     payment_method tinyint)"])
+; Execution error (JdbcSQLSyntaxErrorException) at org.h2.message.DbException/getJdbcSQLException (DbException.java:514).
+; Syntax error in SQL statement "create table [*]order (\000a     id int auto_increment primary key,\000a     user_name varchar(30),\000a     total_price bigint,\000a     first_name varchar(10),\000a     last_name varchar(20),\000a     email_address varchar(40),\000a     address_line varchar(50),\000a     country varchar(50),\000a     state varchar(20),\000a     zipcode varchar(10),\000a     card_name varchar(30),\000a     card_number varchar(40),\000a     expiration varchar(10),\000a     payment_method tinyint)"; expected "identifier"; SQL statement:
+; create table order (
+;      id int auto_increment primary key,
+;      user_name varchar(30),
+;      total_price bigint,
+;      first_name varchar(10),
+;      last_name varchar(20),
+;      email_address varchar(40),
+;      address_line varchar(50),
+;      country varchar(50),
+;      state varchar(20),
+;      zipcode varchar(10),
+;      card_name varchar(30),
+;      card_
+; number varchar(40),
+;      expiration varchar(10),
+;      payment_method tinyint) [42001-224]
+clj꞉migration꞉> 
+(jdbc/execute-one!
+   ds
+   ["create table order (
+     id int auto_increment primary key,
+     user_name varchar(30),
+     total_price bigint,
+     first_name varchar(10),
+     last_name varchar(20),
+     email_address varchar(40),
+     address_line varchar(50),
+     country varchar(50),
+     state varchar(20),
+     zipcode varchar(10),
+     card_name varchar(30),
+     card_number varchar(40),
+     expiration varchar(10),
+     payment_method tinyint)"])
+; Execution error (JdbcSQLSyntaxErrorException) at org.h2.message.DbException/getJdbcSQLException (DbException.java:514).
+; Syntax error in SQL statement "create table [*]order (\000a     id int auto_increment primary key,\000a     user_name varchar(30),\000a     total_price bigint,\000a     first_name varchar(10),\000a     last_name varchar(20),\000a     email_address varchar(40),\000a     address_line varchar(50),\000a     country varchar(50),\000a     state varchar(20),\000a     zipcode varchar(10),\000a     card_name varchar(30),\000a     card_number varchar(40),\000a     expiration varchar(10),\000a     payment_method tinyint)"; expected "identifier"; SQL statement:
+; create table order (
+;      id int auto_increment primary key,
+;      user_name varchar(30),
+;      total_price bigint,
+;      first_name varchar(10),
+;      last_name varchar(20),
+;      email_address varchar(40),
+;      address_line varchar(50),
+;      country varchar(50),
+;      state varchar(20),
+;      zipcode varchar(10),
+;      card_name varchar(30),
+;      card_
+; number varchar(40),
+;      expiration varchar(10),
+;      payment_method tinyint) [42001-224]
+clj꞉migration꞉> 
+(jdbc/execute-one!
+   ds
+   ["create table `order` (
+     id int auto_increment primary key,
+     user_name varchar(30),
+     total_price bigint,
+     first_name varchar(10),
+     last_name varchar(20),
+     email_address varchar(40),
+     address_line varchar(50),
+     country varchar(50),
+     state varchar(20),
+     zipcode varchar(10),
+     card_name varchar(30),
+     card_number varchar(40),
+     expiration varchar(10),
+     payment_method tinyint)"])
+#:next.jdbc{:update-count 0}
+clj꞉migration꞉> 
+(jdbc/execute-one! ds ["show tables"])
+#:TABLES{:TABLE_NAME "CART_ITEM", :TABLE_SCHEMA "PUBLIC"}
+clj꞉migration꞉> 
+(jdbc/execute! ds ["show tables"])
+[#:TABLES{:TABLE_NAME "CART_ITEM", :TABLE_SCHEMA "PUBLIC"} #:TABLES{:TABLE_NAME "CATEGORY", :TABLE_SCHEMA "PUBLIC"} #:TABLES{:TABLE_NAME "CONTACT", :TABLE_SCHEMA "PUBLIC"} #:TABLES{:TABLE_NAME "ORDER", :TABLE_SCHEMA "PUBLIC"}]
+clj꞉migration꞉> 
+(jdbc/execute! ds ["show tables"])
+[#:TABLES{:TABLE_NAME "CART_ITEM", :TABLE_SCHEMA "PUBLIC"} #:TABLES{:TABLE_NAME "CATEGORY", :TABLE_SCHEMA "PUBLIC"} #:TABLES{:TABLE_NAME "CONTACT", :TABLE_SCHEMA "PUBLIC"} #:TABLES{:TABLE_NAME "ORDER", :TABLE_SCHEMA "PUBLIC"}]
+clj꞉migration꞉> 
+(jdbc/execute-one!
+   ds
+   ["create table product (
+     id int auto_increment primary key,
+     name varchar(50),
+     summary varchar(512),
+     description varchar(2086),
+     price bigint,
+     category_id int)"])
+#:next.jdbc{:update-count 0}
+clj꞉migration꞉> 
+(jdbc/execute! ds ["show tables"])
+[#:TABLES{:TABLE_NAME "CART_ITEM", :TABLE_SCHEMA "PUBLIC"} #:TABLES{:TABLE_NAME "CATEGORY", :TABLE_SCHEMA "PUBLIC"} #:TABLES{:TABLE_NAME "CONTACT", :TABLE_SCHEMA "PUBLIC"} #:TABLES{:TABLE_NAME "ORDER", :TABLE_SCHEMA "PUBLIC"} #:TABLES{:TABLE_NAME "PRODUCT", :TABLE_SCHEMA "PUBLIC"}]
+clj꞉migration꞉> 
+(ns core
+  (:require [reitit.ring :as ring]))
+nil
+clj꞉core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/jaeyeonjo/Projects/microservices-study/monolithic ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:57788 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+(when-let [requires (resolve 'clojure.main/repl-requires)] (clojure.core/apply clojure.core/require @requires))
+nil
+clj꞉shadow.user꞉> 
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Please start your ClojureScript app so that Calva can connect to its REPL...
+; Connected session: cljs, repl: :node-repl
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+(try (require '[cljs.repl :refer [apropos dir doc find-doc print-doc pst source]]) (catch :default e (js/console.warn "Failed to require cljs.repl utilities:" (.-message e))))
+nil
+cljs꞉cljs.user꞉> 
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+(ns core
+  (:require [reitit.ring :as ring]
+            [reitit.]
+            ))
+; Execution error (FileNotFoundException) at core/eval33737$loading (REPL:1).
+; Could not locate reitit/__init.class, reitit/.clj or reitit/.cljc on classpath.
+clj꞉core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/jaeyeonjo/Projects/microservices-study/monolithic ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:58260 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+(when-let [requires (resolve 'clojure.main/repl-requires)] (clojure.core/apply clojure.core/require @requires))
+nil
+clj꞉shadow.user꞉> 
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Please start your ClojureScript app so that Calva can connect to its REPL...
+; Connected session: cljs, repl: :node-repl
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+(try (require '[cljs.repl :refer [apropos dir doc find-doc print-doc pst source]]) (catch :default e (js/console.warn "Failed to require cljs.repl utilities:" (.-message e))))
+nil
+cljs꞉cljs.user꞉> 
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+(ns core
+  (:require [reitit.ring :as ring] 
+            ))
+nil
+clj꞉core꞉> 
+reitit.swagger
+; Syntax error (ClassNotFoundException) compiling at (src/clj/core.clj:0:0).
+; reitit.swagger
+clj꞉user꞉> 
+(ns core
+  (:require [reitit.ring :as ring] 
+            [reitit.swagger]
+            ))
+nil
+clj꞉core꞉> 
+(ns core
+  (:require [reitit.ring :as ring] 
+            [reitit.swagger :as swagger]
+            ))
+nil
+clj꞉core꞉> 
+(ns core
+  (:require [reitit.ring :as ring] 
+            [reitit.swagger :as swagger]
+            [reitit.swagger-ui :as swagger-ui]))
+nil
+clj꞉core꞉> 
+(def app
+  (ring/ring-handler
+   (ring/router
+    [""
+     ["/swagger.json" {:get (swagger/create-swagger-handler)}]
+     ["/api-docs/*" {:get (swagger-ui/create-swagger-ui-handler)}]
+     ["/api" {:get {}}]])))
+; Execution error (ExceptionInfo) at reitit.exception/exception (exception.cljc:19).
+; path "/api" doesn't have a :handler defined for :get
+; 
+; {:path "/api", :data {}, :scope :get}
+clj꞉core꞉> 
+(def app
+  (ring/ring-handler
+   (ring/router
+    [""
+     ["/swagger.json" {:get (swagger/create-swagger-handler)}]
+     ["/api-docs/*" {:get (swagger-ui/create-swagger-ui-handler)}]])))
+#'core/app
+clj꞉core꞉> 
+(app {:request-method :get :uri "/swagger.json"})
+{:status 200, :body {:swagger "2.0", :x-id #{:reitit.swagger/default}, :paths {"/swagger.json" {:get {:responses {:default {:description ""}}}}, "/api-docs/{}" {:get {:responses {:default {:description ""}}}}}}}
+clj꞉core꞉> 
+(def db {:dbtype "h2" :dbname "shopping_mall"})
+#'migration/db
+clj꞉migration꞉> 
+(def ds (jdbc/get-datasource db))
+; Syntax error compiling at (src/clj/migration.clj:6:9).
+; No such namespace: jdbc
+clj꞉migration꞉> 
+(ns migration
+  (:require [next.jdbc :as jdbc]))
+Loading initial Timbre config from: :default
+nil
+clj꞉migration꞉> 
+(def db {:dbtype "h2" :dbname "shopping_mall"})
+#'migration/db
+clj꞉migration꞉> 
+(def ds (jdbc/get-datasource db))
+#'migration/ds
+clj꞉migration꞉> 
+(jdbc/execute! ds ["show tables"])
+[#:TABLES{:TABLE_NAME "CART_ITEM", :TABLE_SCHEMA "PUBLIC"} #:TABLES{:TABLE_NAME "CATEGORY", :TABLE_SCHEMA "PUBLIC"} #:TABLES{:TABLE_NAME "CONTACT", :TABLE_SCHEMA "PUBLIC"} #:TABLES{:TABLE_NAME "ORDER", :TABLE_SCHEMA "PUBLIC"} #:TABLES{:TABLE_NAME "PRODUCT", :TABLE_SCHEMA "PUBLIC"}]
+clj꞉migration꞉> 
+ds
+#object[next.jdbc.connection$url_PLUS_etc$reify__40661 0x62ef6923 "jdbc:h2:./shopping_mall"]
+clj꞉migration꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/jaeyeonjo/Projects/microservices-study/monolithic ; npx shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app ; popd
+; Using host:port localhost:60912 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+(when-let [requires (resolve 'clojure.main/repl-requires)] (clojure.core/apply clojure.core/require @requires))
+nil
+clj꞉shadow.user꞉> 
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Please start your ClojureScript app so that Calva can connect to its REPL...
+; Connected session: cljs, repl: :node-repl
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+(try (require '[cljs.repl :refer [apropos dir doc find-doc print-doc pst source]]) (catch :default e (js/console.warn "Failed to require cljs.repl utilities:" (.-message e))))
+nil
+cljs꞉cljs.user꞉> 
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Evaluating file: migration.clj
+Loading initial Timbre config from: :default
+nil
+clj꞉migration꞉> 
+ds
+#object[next.jdbc.connection$url_PLUS_etc$reify__36606 0xeab8519 "jdbc:h2:./shopping_mall"]
+clj꞉migration꞉> 
+(jdbc/execute! ds ["show tables"])
+[#:TABLES{:TABLE_NAME "CART_ITEM", :TABLE_SCHEMA "PUBLIC"} #:TABLES{:TABLE_NAME "CATEGORY", :TABLE_SCHEMA "PUBLIC"} #:TABLES{:TABLE_NAME "CONTACT", :TABLE_SCHEMA "PUBLIC"} #:TABLES{:TABLE_NAME "ORDER", :TABLE_SCHEMA "PUBLIC"} #:TABLES{:TABLE_NAME "PRODUCT", :TABLE_SCHEMA "PUBLIC"}]
+clj꞉migration꞉> 
+(ns core
+  (:require [reitit.ring :as ring] 
+            [reitit.swagger :as swagger]
+            [reitit.swagger-ui :as swagger-ui]
+            [next.jdbc :as jdbc]))
+nil
+clj꞉core꞉> 
+(def db {:dbtype "h2" :dbname "shopping_mall"})
+#'core/db
+clj꞉core꞉> 
+(def ds (jdbc/get-datasource db))
+#'core/ds
+clj꞉core꞉> 
+(ns core
+  (:require [reitit.ring :as ring] 
+            [reitit.swagger :as swagger]
+            [reitit.swagger-ui :as swagger-ui]
+            [reitit.ring.middleware.parameters :as parameters]
+            [next.jdbc :as jdbc]))
+nil
+clj꞉core꞉> 
+(def app
+  (ring/ring-handler
+   (ring/router
+    [""
+     ["/swagger.json" {:get (swagger/create-swagger-handler)}]
+     ["/api-docs/*" {:get (swagger-ui/create-swagger-ui-handler)}]
+     ["/api"
+      ["/products"
+       {:get {:handler (fn [_])}}]
+      
+      ]
+     ]
+    {:data {:middleware [parameters/parameters-middleware]}})))
+#'core/app
+clj꞉core꞉> 
+(app {:request-method :get :uri "/swagger.json"})
+{:status 200, :body {:swagger "2.0", :x-id #{:reitit.swagger/default}, :paths {"/swagger.json" {:get {:responses {:default {:description ""}}}}, "/api-docs/{}" {:get {:responses {:default {:description ""}}}}, "/api/products" {:get {:responses {:default {:description ""}}}}}}}
+clj꞉core꞉> 
+(app {:request-method :get :uri "/api/products"
+      :params {:a 1}})
+nil
+clj꞉core꞉> 
+(def app
+  (ring/ring-handler
+   (ring/router
+    [""
+     ["/swagger.json" {:get (swagger/create-swagger-handler)}]
+     ["/api-docs/*" {:get (swagger-ui/create-swagger-ui-handler)}]
+     ["/api"
+      ["/products"
+       {:get {:handler (fn [_]
+                         (println _))}}]]]
+    {:data {:middleware [parameters/parameters-middleware]}})))
+#'core/app
+clj꞉core꞉> 
+(app {:request-method :get :uri "/api/products"
+      })
+{:request-method :get, :uri /api/products, :path-params {}, :reitit.core/match #reitit.core.Match{:template /api/products, :data {:middleware [{:name :reitit.ring.middleware.parameters/parameters, :compile #function[reitit.ring.middleware.parameters/fn--41626], :wrap #function[ring.middleware.params/wrap-params]}], :get {:handler #function[core/fn--41640]}}, :result #reitit.ring.Methods{:get #reitit.ring.Endpoint{:data {:middleware [{:name :reitit.ring.middleware.parameters/parameters, :compile #function[reitit.ring.middleware.parameters/fn--41626], :wrap #function[ring.middleware.params/wrap-params]}], :handler #function[core/fn--41640]}, :handler #function[ring.middleware.params/wrap-params/fn--26822], :path /api/products, :method :get, :middleware [#reitit.middleware.Middleware{:name :reitit.ring.middleware.parameters/parameters, :wrap #function[ring.middleware.params/wrap-params], :spec nil}]}, :head nil, :post nil, :put nil, :delete nil, :connect nil, :options #reitit.ring.Endpoint{:data {:middleware [{:name :reitit.ring.middleware.parameters/parameters, :compile #function[reitit.ring.middleware.parameters/fn--41626], :wrap #function[ring.middleware.params/wrap-params]}], :no-doc true, :handler #function[reitit.ring/fn--39522/fn--39531]}, :handler #function[ring.middleware.params/wrap-params/fn--26822], :path /api/products, :method :options, :middleware [#reitit.middleware.Middleware{:name :reitit.ring.middleware.parameters/parameters, :wrap #function[ring.middleware.params/wrap-params], :spec nil}]}, :trace nil, :patch nil}, :path-params {}, :path /api/products}, :reitit.core/router #object[reitit.core$mixed_router$reify__38816 0x5123e3d7 reitit.core$mixed_router$reify__38816@5123e3d7], :form-params {}, :params {}, :query-params {}}
+nil
+clj꞉core꞉> 
+(def app
+  (ring/ring-handler
+   (ring/router
+    [""
+     ["/swagger.json" {:get (swagger/create-swagger-handler)}]
+     ["/api-docs/*" {:get (swagger-ui/create-swagger-ui-handler)}]
+     ["/api"
+      ["/products"
+       {:get {:handler (fn [_]
+                         {:status 200
+                          :body (str _)})}}]]]
+    {:data {:middleware [parameters/parameters-middleware]}})))
+#'core/app
+clj꞉core꞉> 
+(app {:request-method :get :uri "/api/products"
+      })
+{:status 200, :body "{:request-method :get, :uri \"/api/products\", :path-params {}, :reitit.core/match #reitit.core.Match{:template \"/api/products\", :data {:middleware [{:name :reitit.ring.middleware.parameters/parameters, :compile #function[reitit.ring.middleware.parameters/fn--41626], :wrap #function[ring.middleware.params/wrap-params]}], :get {:handler #function[core/fn--41644]}}, :result #reitit.ring.Methods{:get #reitit.ring.Endpoint{:data {:middleware [{:name :reitit.ring.middleware.parameters/parameters, :compile #function[reitit.ring.middleware.parameters/fn--41626], :wrap #function[ring.middleware.params/wrap-params]}], :handler #function[core/fn--41644]}, :handler #function[ring.middleware.params/wrap-params/fn--26822], :path \"/api/products\", :method :get, :middleware [#reitit.middleware.Middleware{:name :reitit.ring.middleware.parameters/parameters, :wrap #function[ring.middleware.params/wrap-params], :spec nil}]}, :head nil, :post nil, :put nil, :delete nil, :connect nil, :options #reitit.ring.Endpoint{:data {:middleware [{:name :reitit.ring.middleware.parameters/parameters, :compile #function[reitit.ring.middleware.parameters/fn--41626], :wrap #function[ring.middleware.params/wrap-params]}], :no-doc true, :handler #function[reitit.ring/fn--39522/fn--39531]}, :handler #function[ring.middleware.params/wrap-params/fn--26822], :path \"/api/products\", :method :options, :middleware [#reitit.middleware.Middleware{:name :reitit.ring.middleware.parameters/parameters, :wrap #function[ring.middleware.params/wrap-params], :spec nil}]}, :trace nil, :patch nil}, :path-params {}, :path \"/api/products\"}, :reitit.core/router #object[reitit.core$mixed_router$reify__38816 0x2644573f \"reitit.core$mixed_router$reify__38816@2644573f\"], :form-params {}, :params {}, :query-params {}}"}
+clj꞉core꞉> 
+(app {:request-method :get :uri "/api/products"
+      :body "adb"
+      })
+{:status 200, :body "{:reitit.core/match #reitit.core.Match{:template \"/api/products\", :data {:middleware [{:name :reitit.ring.middleware.parameters/parameters, :compile #function[reitit.ring.middleware.parameters/fn--41626], :wrap #function[ring.middleware.params/wrap-params]}], :get {:handler #function[core/fn--41644]}}, :result #reitit.ring.Methods{:get #reitit.ring.Endpoint{:data {:middleware [{:name :reitit.ring.middleware.parameters/parameters, :compile #function[reitit.ring.middleware.parameters/fn--41626], :wrap #function[ring.middleware.params/wrap-params]}], :handler #function[core/fn--41644]}, :handler #function[ring.middleware.params/wrap-params/fn--26822], :path \"/api/products\", :method :get, :middleware [#reitit.middleware.Middleware{:name :reitit.ring.middleware.parameters/parameters, :wrap #function[ring.middleware.params/wrap-params], :spec nil}]}, :head nil, :post nil, :put nil, :delete nil, :connect nil, :options #reitit.ring.Endpoint{:data {:middleware [{:name :reitit.ring.middleware.parameters/parameters, :compile #function[reitit.ring.middleware.parameters/fn--41626], :wrap #function[ring.middleware.params/wrap-params]}], :no-doc true, :handler #function[reitit.ring/fn--39522/fn--39531]}, :handler #function[ring.middleware.params/wrap-params/fn--26822], :path \"/api/products\", :method :options, :middleware [#reitit.middleware.Middleware{:name :reitit.ring.middleware.parameters/parameters, :wrap #function[ring.middleware.params/wrap-params], :spec nil}]}, :trace nil, :patch nil}, :path-params {}, :path \"/api/products\"}, :reitit.core/router #object[reitit.core$mixed_router$reify__38816 0x7ad71db5 \"reitit.core$mixed_router$reify__38816@7ad71db5\"], :params {}, :form-params {}, :query-params {}, :uri \"/api/products\", :path-params {}, :body \"adb\", :request-method :get}"}
+clj꞉core꞉> 
+(app {:request-method :get :uri "/api/products"
+      :body-params {:a 1}
+      })
+{:status 200, :body "{:reitit.core/match #reitit.core.Match{:template \"/api/products\", :data {:middleware [{:name :reitit.ring.middleware.parameters/parameters, :compile #function[reitit.ring.middleware.parameters/fn--41626], :wrap #function[ring.middleware.params/wrap-params]}], :get {:handler #function[core/fn--41644]}}, :result #reitit.ring.Methods{:get #reitit.ring.Endpoint{:data {:middleware [{:name :reitit.ring.middleware.parameters/parameters, :compile #function[reitit.ring.middleware.parameters/fn--41626], :wrap #function[ring.middleware.params/wrap-params]}], :handler #function[core/fn--41644]}, :handler #function[ring.middleware.params/wrap-params/fn--26822], :path \"/api/products\", :method :get, :middleware [#reitit.middleware.Middleware{:name :reitit.ring.middleware.parameters/parameters, :wrap #function[ring.middleware.params/wrap-params], :spec nil}]}, :head nil, :post nil, :put nil, :delete nil, :connect nil, :options #reitit.ring.Endpoint{:data {:middleware [{:name :reitit.ring.middleware.parameters/parameters, :compile #function[reitit.ring.middleware.parameters/fn--41626], :wrap #function[ring.middleware.params/wrap-params]}], :no-doc true, :handler #function[reitit.ring/fn--39522/fn--39531]}, :handler #function[ring.middleware.params/wrap-params/fn--26822], :path \"/api/products\", :method :options, :middleware [#reitit.middleware.Middleware{:name :reitit.ring.middleware.parameters/parameters, :wrap #function[ring.middleware.params/wrap-params], :spec nil}]}, :trace nil, :patch nil}, :path-params {}, :path \"/api/products\"}, :reitit.core/router #object[reitit.core$mixed_router$reify__38816 0x962259 \"reitit.core$mixed_router$reify__38816@962259\"], :params {}, :body-params {:a 1}, :form-params {}, :query-params {}, :uri \"/api/products\", :path-params {}, :request-method :get}"}
+clj꞉core꞉> 
+(ns core
+  (:require [reitit.ring :as ring] 
+            [reitit.swagger :as swagger]
+            [reitit.swagger-ui :as swagger-ui]
+            [reitit.ring.middleware.parameters :as parameters] 
+            [next.jdbc :as jdbc]))
+nil
+clj꞉core꞉> 
+(jdbc/execute!
+                          "select * from product")
+; Execution error (SQLException) at java.sql.DriverManager/getConnection (DriverManager.java:708).
+; No suitable driver found for select * from product
+clj꞉core꞉> 
+(jdbc/execute! ds
+                          "select * from product")
+; Execution error (ClassCastException) at next.jdbc.prepare/create (prepare.clj:95).
+; class java.lang.Character cannot be cast to class java.lang.String (java.lang.Character and java.lang.String are in module java.base of loader 'bootstrap')
+clj꞉core꞉> 
+(jdbc/execute! ds ["select * from product"]
+                          )
+[]
+clj꞉core꞉> 
+; Evaluating file: migration.clj
+; Syntax error reading source at (src/clj/migration.clj:87:30).
+; Unsupported escape character: \'
+; Evaluation of file migration.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉migration꞉> 
+(jdbc/execute! 
+   ds 
+   ["insert into `product` 
+     (name, summary, description, price, category_id)
+     ('product1', 'product1\\'s summary',
+     'product1\\'s description', 100, 1)"])
+; Execution error (JdbcSQLSyntaxErrorException) at org.h2.message.DbException/getJdbcSQLException (DbException.java:514).
+; Syntax error in SQL statement "insert into `product` \000a     (name, summary, description, price, category_id)\000a     ('product1', 'product1\\'s summary',\000a     'product1[*]\\'s description', 100, 1)"; SQL statement:
+; insert into `product` 
+;      (name, summary, description, price, category_id)
+;      ('product1', 'product1\'s summary',
+;      'product1\'s description', 100, 1) [42000-224]
+clj꞉migration꞉> 
+; Evaluating file: migration.clj
+nil
+clj꞉migration꞉> 
+(jdbc/execute! 
+   ds 
+   ["insert into `product` 
+     (name, summary, description, price, category_id),
+     ('product1', 'product1\\'s summary',
+     'product1\\'s description', 100, 1)"])
+; Execution error (JdbcSQLSyntaxErrorException) at org.h2.message.DbException/getJdbcSQLException (DbException.java:514).
+; Syntax error in SQL statement "insert into `product` \000a     (name, summary, description, price, category_id),\000a     ('product1', 'product1\\'s summary',\000a     'product1[*]\\'s description', 100, 1)"; SQL statement:
+; insert into `product` 
+;      (name, summary, description, price, category_id),
+;      ('product1', 'product1\'s summary',
+;      'product1\'s description', 100, 1) [42000-224]
+clj꞉migration꞉> 
+(jdbc/execute! 
+   ds 
+   ["insert into `product` 
+     (name, summary, description, price, category_id),
+     values
+     ('product1', 'product1\\'s summary',
+     'product1\\'s description', 100, 1)"])
+; Execution error (JdbcSQLSyntaxErrorException) at org.h2.message.DbException/getJdbcSQLException (DbException.java:514).
+; Syntax error in SQL statement "insert into `product` \000a     (name, summary, description, price, category_id),\000a     values\000a     ('product1', 'product1\\'s summary',\000a     'product1[*]\\'s description', 100, 1)"; SQL statement:
+; insert into `product` 
+;      (name, summary, description, price, category_id),
+;      values
+;      ('product1', 'product1\'s summary',
+;      'product1\'s description', 100, 1) [42000-224]
+clj꞉migration꞉> 
+(jdbc/execute! 
+   ds 
+   ["insert into `product` 
+     (name, summary, description, price, category_id)
+     values
+     ('product1', 'product1\\'s summary',
+     'product1\\'s description', 100, 1)"])
+; Execution error (JdbcSQLSyntaxErrorException) at org.h2.message.DbException/getJdbcSQLException (DbException.java:514).
+; Syntax error in SQL statement "insert into `product` \000a     (name, summary, description, price, category_id)\000a     values\000a     ('product1', 'product1\\'s summary',\000a     'product1[*]\\'s description', 100, 1)"; SQL statement:
+; insert into `product` 
+;      (name, summary, description, price, category_id)
+;      values
+;      ('product1', 'product1\'s summary',
+;      'product1\'s description', 100, 1) [42000-224]
+clj꞉migration꞉> 
+(jdbc/execute! 
+   ds 
+   ["insert into `product` 
+     (name, summary, description, price, category_id)
+     values
+     ('product1', 'product1\\'s summary',
+     'product1\\'s description', 100, 1);"])
+; Execution error (JdbcSQLSyntaxErrorException) at org.h2.message.DbException/getJdbcSQLException (DbException.java:514).
+; Syntax error in SQL statement "insert into `product` \000a     (name, summary, description, price, category_id)\000a     values\000a     ('product1', 'product1\\'s summary',\000a     'product1[*]\\'s description', 100, 1);"; SQL statement:
+; insert into `product` 
+;      (name, summary, description, price, category_id)
+;      values
+;      ('product1', 'product1\'s summary',
+;      'product1\'s description', 100, 1); [42000-224]
+clj꞉migration꞉> 
+(jdbc/execute! 
+   ds 
+   ["INSERT INTO `product` 
+     (name, summary, description, price, category_id)
+     VALUES
+     ('product1', 'product1s summary','product1s description', 100, 1);"])
+[#:next.jdbc{:update-count 1}]
+clj꞉migration꞉> 
+(jdbc/execute! ds ["select * from product"])
+[#:PRODUCT{:ID 1, :NAME "product1", :SUMMARY "product1s summary", :DESCRIPTION "product1s description", :PRICE 100, :CATEGORY_ID 1}]
+clj꞉core꞉> 
+(ns core
+  (:require [reitit.ring :as ring] 
+            [reitit.swagger :as swagger]
+            [reitit.swagger-ui :as swagger-ui]
+            [reitit.ring.middleware.parameters :as parameters] 
+            [reitit.ring.coercion :as rrc]
+            [next.jdbc :as jdbc]
+            ))
+nil
+clj꞉core꞉> 
+(ns core
+  (:require [reitit.ring :as ring] 
+            [reitit.swagger :as swagger]
+            [reitit.swagger-ui :as swagger-ui]
+            [reitit.ring.middleware.parameters :as parameters] 
+            [reitit.ring.coercion :as rrc]
+            [next.jdbc :as jdbc]))
+nil
+clj꞉core꞉> 
+(jdbc/execute! ds ["select * from product"])
+[#:PRODUCT{:ID 1, :NAME "product1", :SUMMARY "product1s summary", :DESCRIPTION "product1s description", :PRICE 100, :CATEGORY_ID 1}]
+clj꞉core꞉> 
+(def app
+  (ring/ring-handler
+   (ring/router
+    [""
+     ["/swagger.json" {:get (swagger/create-swagger-handler)}]
+     ["/api-docs/*" {:get (swagger-ui/create-swagger-ui-handler)}]
+     ["/api"
+      ["/product"
+       {:get {:handler (fn [_]
+                         (jdbc/execute! ds ["select * from product"])
+                         {:status 200
+                          :body (jdbc/execute! ds ["select * from product"])})}}]]]
+    {:data {:middleware [parameters/parameters-middleware
+                         rrc/coerce-exceptions-middleware
+                         rrc/coerce-response-middleware
+                         rrc/coerce-request-middleware]}})))
+#'core/app
+clj꞉core꞉> 
+(app {:request-method :get :uri "/swagger.json"})
+{:status 200, :body {:swagger "2.0", :x-id #{:reitit.swagger/default}, :paths {"/swagger.json" {:get {:responses {:default {:description ""}}}}, "/api-docs/{}" {:get {:responses {:default {:description ""}}}}, "/api/product" {:get {:responses {:default {:description ""}}}}}}}
+clj꞉core꞉> 
+(app {:request-method :get :uri "/api/products"
+      :body-params {:a 1}
+      })
+nil
+clj꞉core꞉> 
+(app {:request-method :get :uri "/api/product"
+      :body-params {:a 1}
+      })
+{:status 200, :body [#:PRODUCT{:ID 1, :NAME "product1", :SUMMARY "product1s summary", :DESCRIPTION "product1s description", :PRICE 100, :CATEGORY_ID 1}]}
+clj꞉core꞉> 
+(def app
+  (ring/ring-handler
+   (ring/router
+    [""
+     ["/swagger.json" {:get (swagger/create-swagger-handler)}]
+     ["/api-docs/*" {:get (swagger-ui/create-swagger-ui-handler)}]
+     ["/api"
+      ["/product"
+       {:get {:handler (fn [_]
+                         (jdbc/execute! ds ["select * from product"])
+                         {:status 200
+                          :body (jdbc/execute! ds ["select * from product"])})}}]]]
+    {:data {:middleware [parameters/parameters-middleware
+                         rrc/coerce-exceptions-middleware
+                         rrc/coerce-response-middleware
+                         rrc/coerce-request-middleware]}})))
+#'core/app
+clj꞉core꞉> 
+(ns core
+  (:require [reitit.ring :as ring] 
+            [reitit.swagger :as swagger]
+            [reitit.swagger-ui :as swagger-ui]
+            [reitit.ring.middleware.parameters :as parameters] 
+            [reitit.ring.coercion :as rrc]
+            [reitit.coercion.spec :as rcs]
+            [muuntaja.core :as m]
+            [next.jdbc :as jdbc]))
+nil
+clj꞉core꞉> 
+(ns core
+  (:require [reitit.ring :as ring] 
+            [reitit.swagger :as swagger]
+            [reitit.swagger-ui :as swagger-ui]
+            [reitit.ring.middleware.parameters :as parameters] 
+            [reitit.ring.coercion :as rrc]
+            [reitit.coercion.spec :as rcs]
+            [muuntaja.core :as m]
+            [next.jdbc :as jdbc]))
+nil
+clj꞉core꞉> 
+(ns core
+  (:require [reitit.ring :as ring] 
+            [reitit.swagger :as swagger]
+            [reitit.swagger-ui :as swagger-ui]
+            [reitit.ring.middleware.parameters :as parameters] 
+            [reitit.ring.coercion :as rrc]
+            [reitit.coercion.spec :as rcs]
+            [muuntaja.core :as m]
+            [muuntaja.middleware :as mm]
+            [next.jdbc :as jdbc]))
+nil
+clj꞉core꞉> 
+(ns core
+  (:require [reitit.ring :as ring] 
+            [reitit.swagger :as swagger]
+            [reitit.swagger-ui :as swagger-ui]
+            [reitit.ring.middleware.parameters :as parameters] 
+            [reitit.ring.coercion :as rrc]
+            [reitit.coercion.spec :as rcs]
+            [muuntaja.core :as m]
+            [reitit.ring.middleware.muuntaja :as muuntaja]
+            [next.jdbc :as jdbc]))
+nil
+clj꞉core꞉> 
+(def app
+  (ring/ring-handler
+   (ring/router
+    [""
+     ["/swagger.json" {:get (swagger/create-swagger-handler)}]
+     ["/api-docs/*" {:get (swagger-ui/create-swagger-ui-handler)}]
+     ["/api"
+      ["/product"
+       {:get {:handler (fn [_]
+                         (jdbc/execute! ds ["select * from product"])
+                         {:status 200
+                          :body (jdbc/execute! ds ["select * from product"])})}}]]]
+    {:data {:middleware [muuntaja/format-middleware
+                         parameters/parameters-middleware
+                         rrc/coerce-exceptions-middleware
+                         rrc/coerce-response-middleware
+                         rrc/coerce-request-middleware]}})))
+#'core/app
+clj꞉core꞉> 
+(app {:request-method :get :uri "/api/product"
+      :body-params {:a 1}
+      })
+{:status 200, :body [#:PRODUCT{:ID 1, :NAME "product1", :SUMMARY "product1s summary", :DESCRIPTION "product1s description", :PRICE 100, :CATEGORY_ID 1}]}
+clj꞉core꞉> 
+(ns core
+  (:require [reitit.ring :as ring] 
+            [reitit.swagger :as swagger]
+            [reitit.swagger-ui :as swagger-ui]
+            [reitit.ring.middleware.parameters :as parameters] 
+            [reitit.ring.coercion :as rrc]
+            [reitit.coercion.spec :as rcs]
+            [ring.adapter.jetty :as jetty] 
+            [muuntaja.core :as m]
+            [reitit.ring.middleware.muuntaja :as muuntaja]
+            [next.jdbc :as jdbc]))
+2023-09-30T22:43:05.528Z Jaeyeons-MacBook-For-Work.local INFO [org.eclipse.jetty.util.log:170] - Logging initialized @5915104ms to org.eclipse.jetty.util.log.Slf4jLog
+nil
+clj꞉core꞉> 
+(jetty/run-jetty #'app {:port 3000, :join? false})
+2023-09-30T22:43:11.064Z Jaeyeons-MacBook-For-Work.local INFO [org.eclipse.jetty.server.Server:375] - jetty-9.4.48.v20220622; built: 2022-06-21T20:42:25.880Z; git: 6b67c5719d1f4371b33655ff2d047d24e171e49a; jvm 20.0.2+9
+2023-09-30T22:43:11.083Z Jaeyeons-MacBook-For-Work.local INFO [org.eclipse.jetty.server.AbstractConnector:333] - Started ServerConnector@cad4603{HTTP/1.1, (http/1.1)}{0.0.0.0:3000}
+2023-09-30T22:43:11.083Z Jaeyeons-MacBook-For-Work.local INFO [org.eclipse.jetty.server.Server:415] - Started @5920660ms
+#object[org.eclipse.jetty.server.Server 0x1e7a22f5 "Server@1e7a22f5{STARTED}[9.4.48.v20220622]"]
+clj꞉core꞉> 
+(jetty/run-jetty #'app {:port 3001, :join? false})
+2023-09-30T22:44:14.445Z Jaeyeons-MacBook-For-Work.local INFO [org.eclipse.jetty.server.Server:375] - jetty-9.4.48.v20220622; built: 2022-06-21T20:42:25.880Z; git: 6b67c5719d1f4371b33655ff2d047d24e171e49a; jvm 20.0.2+9
+2023-09-30T22:44:14.454Z Jaeyeons-MacBook-For-Work.local INFO [org.eclipse.jetty.server.AbstractConnector:333] - Started ServerConnector@4c562064{HTTP/1.1, (http/1.1)}{0.0.0.0:3001}
+2023-09-30T22:44:14.455Z Jaeyeons-MacBook-For-Work.local INFO [org.eclipse.jetty.server.Server:415] - Started @5984031ms
+#object[org.eclipse.jetty.server.Server 0x4e7b741f "Server@4e7b741f{STARTED}[9.4.48.v20220622]"]
+clj꞉core꞉> 
+2023-09-30T22:44:21.978Z Jaeyeons-MacBook-For-Work.local WARN [org.eclipse.jetty.server.HttpChannel:776] - /api/product
+                                                                     java.lang.Thread.run              Thread.java: 1623
+                                org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run    QueuedThreadPool.java: 1034
+                                    org.eclipse.jetty.util.thread.QueuedThreadPool.runJob    QueuedThreadPool.java:  883
+                                               org.eclipse.jetty.io.ChannelEndPoint$1.run     ChannelEndPoint.java:  104
+                                               org.eclipse.jetty.io.FillInterest.fillable        FillInterest.java:  105
+                           org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded  AbstractConnection.java:  311
+                                       org.eclipse.jetty.server.HttpConnection.onFillable      HttpConnection.java:  277
+                                              org.eclipse.jetty.server.HttpChannel.handle         HttpChannel.java:  479
+                                            org.eclipse.jetty.server.HttpChannel.dispatch         HttpChannel.java:  732
+                                     org.eclipse.jetty.server.HttpChannel.lambda$handle$1         HttpChannel.java:  487
+                                                   org.eclipse.jetty.server.Server.handle              Server.java:  516
+                                   org.eclipse.jetty.server.handler.HandlerWrapper.handle      HandlerWrapper.java:  127
+ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$ff19274a.handle                               
+                                                      ring.adapter.jetty/proxy-handler/fn                jetty.clj:   28
+                                                ring.util.servlet/update-servlet-response              servlet.clj:   98
+                                                ring.util.servlet/update-servlet-response              servlet.clj:  109
+                                                       ring.core.protocols/eval44302/fn/G            protocols.clj:    8
+                                                          clojure.core/-cache-protocol-fn         core_deftype.clj:  584
+java.lang.IllegalArgumentException: No implementation of method: :write-body-to-stream of protocol: #'ring.core.protocols/StreamableResponseBody found for class: clojure.lang.PersistentVector
+
