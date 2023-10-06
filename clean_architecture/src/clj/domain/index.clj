@@ -1,0 +1,2 @@
+(ns domain.index)
+
