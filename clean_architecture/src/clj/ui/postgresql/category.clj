@@ -9,9 +9,5 @@
 
 (def repository
   {:db db/db
-   :interfaces {:list (partial list-items db/db)}})
-
-(def list
-  (-> repository :interfaces :list))
-
+   :interfaces {:list list-items}})
 

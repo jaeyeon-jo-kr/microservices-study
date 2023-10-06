@@ -1,5 +1,6 @@
 (ns ui.api.category
-  (:require [ui.postgresql.category :as category]))
+  (:require [ui.postgresql.category :as category]
+            [infrastructure.handler.category :as handler]))
 
 (def routes
   ["/category"
@@ -8,4 +9,4 @@
      {:handler
       (fn [_request]
         {:get 200
-         :body (category/list)})}}]])
+         :body (handler/list-items category/repository)})}}]])
